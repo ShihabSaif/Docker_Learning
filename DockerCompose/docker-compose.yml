@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+
+  web:
+    image: nginx
+    ports:
+      - 9090:80
+
+  database:
+    image: redis

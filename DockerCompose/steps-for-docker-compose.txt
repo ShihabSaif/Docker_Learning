@@ -1,0 +1,15 @@
+(1) install docker compose. not needed normally if docker installed already.
+
+(2) create docker-compose.yml file.
+
+(3) check the validity of the docker compose file by this command
+    docker-compose config
+
+(4) run docker compose file by this command
+    docker-compose up -d
+
+(5) bring down application
+    docker-compose down
+
+TIPS: how to scale docker compose
+    docker-compose up -d --scale database=4
