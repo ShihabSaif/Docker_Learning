@@ -1,0 +1,10 @@
+(1) Create a file named Dockerfile
+
+(2) Add instructions in Dockerfile
+
+(3) Build Dockerfile to create image (docker build -t myimage1:1.0 .)
+
+(4) Run image to create container (docker run c9e6a6abf5ce)
+
+Dockerfile reference:
+https://docs.docker.com/engine/reference/builder/#environment-replacement
