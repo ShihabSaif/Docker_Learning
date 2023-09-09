@@ -1,0 +1,25 @@
+Docker Basic Commands
+Step by Step for Beginners
+Basic
+: docker version
+: docker -v
+: docker info
+: docker --help
+: docker login
+————————————
+Images
+: docker images
+: docker pull
+: docker rmi images
+: docker rmi -f image
+————————————
+Containers
+: docker ps
+: docker run
+: docker start
+: docker stop
+————————————
+System
+: docker stats
+: docker system df
+: docker system prune
