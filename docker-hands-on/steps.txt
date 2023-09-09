@@ -1,0 +1,9 @@
+(1) create Dockerfile.
+
+(2) add instructions in Dockerfile to create images.
+
+(3) Run Dockerfile to create docker images (docker build -t directory_name .)
+
+(4) Run docker image to create docker container (docker run -d -p 9091:91 docker-hands-on)
+
+(5) access the application running in docker container.
